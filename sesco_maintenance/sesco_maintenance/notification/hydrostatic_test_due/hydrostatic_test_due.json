@@ -1,0 +1,33 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "",
+ "creation": "2026-10-18 10:00:00.000000",
+ "date_changed": "next_hydrotest_date",
+ "days_in_advance": 60,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Customer Equipment",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>{{ _(\"Hydrostatic test for equipment {0} ({1}) of customer {2} is due on {3}.\").format(doc.name, doc.equipment_type, doc.customer_name or doc.customer, frappe.utils.formatdate(doc.next_hydrotest_date)) }}</p>\n<p>{{ _(\"Status\") }}: {{ _(doc.status) }}</p>\n",
+ "message_type": "Markdown",
+ "modified": "2026-10-18 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Sesco Maintenance",
+ "name": "Hydrostatic Test Due",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "Maintenance Storekeeper"
+  },
+  {
+   "receiver_by_role": "Sales User"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "subject": "{{ _('Hydrostatic test due') }}: {{ doc.name }} — {{ doc.customer_name or doc.customer }}"
+}

@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-10-18 10:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "maintenance_warehouse",
+  "column_break_1",
+  "accessories_expense_account",
+  "hydrotest_reminder_days"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "description": "Accessories used in maintenance reports are issued from this warehouse.",
+   "fieldname": "maintenance_warehouse",
+   "fieldtype": "Link",
+   "label": "Maintenance Warehouse",
+   "options": "Warehouse",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Expense account for the automatic Material Issue. Leave empty to use the item / company default.",
+   "fieldname": "accessories_expense_account",
+   "fieldtype": "Link",
+   "label": "Accessories Expense Account",
+   "options": "Account"
+  },
+  {
+   "default": "60",
+   "fieldname": "hydrotest_reminder_days",
+   "fieldtype": "Int",
+   "label": "Hydrostatic Test Reminder (Days Before)"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-10-18 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Sesco Maintenance",
+ "name": "Equipment Maintenance Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "permlevel": 0,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

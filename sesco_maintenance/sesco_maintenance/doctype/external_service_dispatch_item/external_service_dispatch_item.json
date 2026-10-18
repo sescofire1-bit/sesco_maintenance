@@ -1,0 +1,136 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-10-18 10:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "equipment",
+  "customer",
+  "equipment_type",
+  "return_status",
+  "return_date",
+  "hydrotest_done",
+  "equipment_receipt",
+  "invoices_section",
+  "purchase_invoice",
+  "billed_in_doctype",
+  "billed_in"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "equipment",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Equipment",
+   "options": "Customer Equipment",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fetch_from": "equipment.customer",
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Customer",
+   "read_only": 1
+  },
+  {
+   "columns": 2,
+   "fetch_from": "equipment.equipment_type",
+   "fieldname": "equipment_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Equipment Type",
+   "options": "Equipment Type",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "columns": 2,
+   "default": "At Supplier",
+   "fieldname": "return_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Return Status",
+   "no_copy": 1,
+   "options": "At Supplier\nReturned OK\nReturned Damaged",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "columns": 1,
+   "fieldname": "return_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Return Date",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "columns": 1,
+   "fieldname": "hydrotest_done",
+   "fieldtype": "Check",
+   "label": "Hydrostatic Test Done",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "equipment_receipt",
+   "fieldtype": "Link",
+   "label": "Equipment Receipt",
+   "options": "Equipment Receipt",
+   "read_only": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "invoices_section",
+   "fieldtype": "Section Break",
+   "label": "Invoices"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "purchase_invoice",
+   "fieldtype": "Link",
+   "label": "Purchase Invoice",
+   "no_copy": 1,
+   "options": "Purchase Invoice",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "billed_in_doctype",
+   "fieldtype": "Link",
+   "label": "Billed In Type",
+   "no_copy": 1,
+   "options": "DocType",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "billed_in",
+   "fieldtype": "Dynamic Link",
+   "label": "Billed In",
+   "no_copy": 1,
+   "options": "billed_in_doctype",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-10-18 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Sesco Maintenance",
+ "name": "External Service Dispatch Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

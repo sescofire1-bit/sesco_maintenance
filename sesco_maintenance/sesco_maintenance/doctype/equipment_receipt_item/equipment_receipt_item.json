@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-10-18 10:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "equipment",
+  "equipment_type",
+  "route",
+  "last_hydrotest_date",
+  "notes",
+  "is_new"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "description": "Leave empty for new equipment; the code is created on submit.",
+   "fieldname": "equipment",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Equipment",
+   "options": "Customer Equipment"
+  },
+  {
+   "columns": 3,
+   "fieldname": "equipment_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Equipment Type",
+   "options": "Equipment Type",
+   "reqd": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "route",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Route",
+   "options": "Internal\nExternal"
+  },
+  {
+   "columns": 2,
+   "fieldname": "last_hydrotest_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Last Hydrostatic Test"
+  },
+  {
+   "columns": 2,
+   "fieldname": "notes",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Notes"
+  },
+  {
+   "fieldname": "is_new",
+   "fieldtype": "Check",
+   "label": "Created by This Receipt",
+   "no_copy": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-10-18 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Sesco Maintenance",
+ "name": "Equipment Receipt Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

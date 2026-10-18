@@ -1,0 +1,271 @@
+0 = not tracked. CO2 cylinders: 5.,0 = مش متابع. أسطوانات CO2: 5.
+Accessories,الأكسسوارات
+Accessories Cost,تكلفة الأكسسوارات
+Accessories Expense Account,حساب مصروف الأكسسوارات
+Accessories Stock Entry,قيد صرف الأكسسوارات
+Accessories Used,الأكسسوارات المستخدمة
+Accessories used in maintenance report {0},أكسسوارات مستخدمة في تقرير الصيانة {0}
+Accessories used in maintenance reports are issued from this warehouse.,الأكسسوارات المستخدمة في تقارير الصيانة بتتصرف من المخزن ده.
+Account {0} belongs to company {1}.,الحساب {0} تابع لشركة {1}.
+Activity,الحركات
+Activity Date,تاريخ الحركة
+Activity Type,نوع الحركة
+Add,إضافة
+Add New Equipment,إضافة معدات جديدة
+Add by Quantity,إضافة بالعدد
+Added {0},اتضافت {0}
+Added {0} equipment,اتضاف {0} معدة
+Amended From,معدّل من
+Amount,المبلغ
+Approved,معتمد
+At Customer,لدى العميل
+At Supplier,عند المورد
+Available Qty,الكمية المتاحة
+Bill Customer,فوترة العميل
+Bill Maintenance (Quotation),فوترة صيانة (عرض سعر)
+Billed In,اتفوترت في
+Billed In Type,نوع مستند الفوترة
+Billing,الفوترة
+CO2,غاز CO2
+Cancelled,ملغي
+Category,الفئة
+Choose Returned OK or Returned Damaged for at least one row.,اختار «رجعت سليمة» أو «رجعت تالفة» لمعدة واحدة على الأقل.
+Choose at least one report.,اختار تقرير واحد على الأقل.
+Code {0} doesn't exist. For new equipment use Add by Quantity.,الكود {0} مش موجود. لو المعدة جديدة استخدم «إضافة بالعدد».
+Company,الشركة
+Company Driver,مندوب الشركة
+Condition,الحالة
+Create,إنشاء
+Created by This Receipt,اتعملت من الإذن ده
+Current Location,المكان الحالي
+Current Supplier,المورد الحالي
+Customer,العميل
+Customer Equipment,معدات العملاء
+Customer Equipment Register,معدات عميل
+Customer Name,اسم العميل
+Customer Pickup,العميل استلم من الورشة
+Customer Service Item,صنف الخدمة للعميل
+Damaged,تالفة
+Damaged Equipment,معدات تالفة
+Damaged — returned as is,تالفة — بترجع زي ما هي
+"Damaged, returned free of charge",تالفة، بترجع من غير حساب
+Date,التاريخ
+Days Left,الأيام المتبقية
+Default Route,المسار الافتراضي
+Delivered,اتسلّمت للعميل
+Delivery Date,تاريخ التسليم
+Delivery Method,طريقة التسليم
+Dispatch Date,تاريخ الإرسال
+Document,المستند
+Document Type,نوع المستند
+Documents,المستندات
+Draft,مسودة
+Driver,المندوب
+Due,مستحق
+Due Date,تاريخ الاستحقاق
+Due Type,نوع الاستحقاق
+Due Within (Days),مستحق خلال (أيام)
+Equipment,المعدة
+Equipment Activity,سجل حركات المعدات
+Equipment Activity Log,سجل حركات المعدات
+Equipment At Supplier,معدات عند المورد
+Equipment Code,كود المعدة
+Equipment Delivery,إذن تسليم معدات
+Equipment Delivery Item,بند إذن تسليم معدات
+Equipment Delivery Note,إذن تسليم معدات (طباعة)
+Equipment Due,صيانات واختبارات مستحقة
+Equipment Gate Pass,بيان خروج معدات
+Equipment In Workshop,معدات بالورشة
+Equipment Labels,ملصقات المعدات
+Equipment Location,أين المعدة؟
+Equipment Maintenance,صيانة معدات لدى الغير
+Equipment Maintenance Report,تقرير صيانة
+Equipment Maintenance Settings,إعدادات صيانة المعدات
+Equipment Ready for Delivery,معدات جاهزة للتسليم
+Equipment Receipt,إذن استلام معدات
+Equipment Receipt Item,بند إذن استلام معدات
+Equipment Type,نوع المعدة
+Equipment Type Name,اسم نوع المعدة
+Equipment to Bill,معدات جاهزة للفوترة
+"Equipment values before this activity, used to revert on cancel.",قيم المعدة قبل الحركة دي، بتُستخدم للرجوع عند الإلغاء.
+Equipment {0} belongs to customer {1}.,المعدة {0} مسجلة باسم العميل {1}.
+Equipment {0} is already in this receipt.,المعدة {0} متضافة بالفعل في الإذن ده.
+"Equipment {0} is already with us ({1}), so it can't be received again.",المعدة {0} موجودة عندنا بالفعل ({1})، فمينفعش تتستلم تاني.
+"Equipment {0} is in draft {1} {2}, which is waiting for approval.",المعدة {0} موجودة في مسودة {1} {2} لسه مستنية الاعتماد.
+Equipment {0} moved again in {1} {2}. Cancel that document first.,المعدة {0} اتحركت تاني في {1} {2}. الغي المستند ده الأول.
+Estimated Profit,الربح التقديري
+Estimated Revenue,الإيراد التقديري
+Estimated Supplier Rate,تكلفة المورد التقديرية
+Expense account for the automatic Material Issue. Leave empty to use the item / company default.,حساب المصروف لقيد الصرف التلقائي. سيبه فاضي عشان يتاخد الافتراضي من الصنف أو الشركة.
+External,خارجي
+External Service Dispatch,إذن صرف لمورد خارجي
+External Service Dispatch Item,بند إذن صرف لمورد خارجي
+Filling Factory (Supplier),مصنع الشحن (المورد)
+Foam,رغوي
+From,من
+From Date,من تاريخ
+Gate Pass — Equipment Sent for Filling,بيان خروج معدات للشحن الخارجي
+Get External Equipment,جلب المعدات الخارجية
+Get Internal Equipment,جلب المعدات الداخلية
+Get Items,جلب البنود
+Get Items From,جلب البنود من
+Get Items From Maintenance Reports,جلب البنود من تقارير الصيانة
+Get Ready Equipment,جلب الجاهز للتسليم
+Hydrostatic Test,اختبار ضغط
+Hydrostatic Test Done,اتعمل اختبار ضغط
+Hydrostatic Test Due,اختبار ضغط مستحق
+Hydrostatic Test Interval (Years),دورة اختبار الضغط (سنين)
+Hydrostatic Test Reminder (Days Before),التنبيه قبل اختبار الضغط (أيام)
+Hydrostatic test done,اتعمل اختبار ضغط
+Hydrostatic test due,اختبار ضغط مستحق
+Hydrostatic test for equipment {0} ({1}) of customer {2} is due on {3}.,اختبار الضغط للمعدة {0} ({1}) بتاعة العميل {2} مستحق يوم {3}.
+Hydrostatic test interval can't be negative.,دورة اختبار الضغط مينفعش تكون بالسالب.
+Hydrostatic test is due in {0} days.,اختبار الضغط مستحق خلال {0} يوم.
+Hydrostatic test is due soon,اختبار الضغط قرّب
+Hydrostatic test is overdue,اختبار الضغط متأخر
+Hydrostatic test is overdue by {0} days.,اختبار الضغط متأخر {0} يوم.
+I received the equipment listed above in the stated condition.,استلمت المعدات الموضحة أعلاه بحالتها.
+In Workshop,بالورشة
+Internal,داخلي
+Invoices,الفواتير
+Item,الصنف
+Item Name,اسم الصنف
+Last Document,آخر مستند
+Last Hydrostatic Test,آخر اختبار ضغط
+Last Receipt,آخر إذن استلام
+Last Service Date,تاريخ آخر صيانة
+Leave empty for new equipment; the code is created on submit.,سيبه فاضي للمعدات الجديدة، والكود بيتعمل عند الاعتماد.
+Leave the status empty for equipment still at the supplier. You can register the rest later.,سيب الحالة فاضية للمعدات اللي لسه عند المورد، وتقدر تسجل الباقي بعدين.
+Maintained,اتصانت
+Maintenance Accessory,أكسسوار صيانة
+Maintenance Approver,معتمد الصيانة (المحاسب)
+Maintenance Date,تاريخ الصيانة
+Maintenance Interval (Months),دورة الصيانة (شهور)
+Maintenance Report Item,بند تقرير صيانة
+Maintenance Reports,تقارير الصيانة
+Maintenance Storekeeper,أمين مخزن الصيانة
+Maintenance Supervisor,مشرف الصيانة
+Maintenance Warehouse,مخزن الصيانة
+Maintenance can be billed to customers only.,الصيانة بتتفوتر للعملاء بس.
+Margin %,الهامش %
+Masters,البيانات الأساسية
+New,جديد
+New Equipment Delivery,إذن تسليم جديد
+New Equipment Receipt,إذن استلام جديد
+New External Dispatch,إذن صرف لمورد جديد
+New Maintenance Report,تقرير صيانة جديد
+Next Hydrostatic Test,اختبار الضغط الجاي
+Next Service Date,الصيانة الجاية
+No activity yet.,لسه مفيش حركات.
+No equipment is available for this document.,مفيش معدات متاحة للمستند ده.
+No equipment returned OK is waiting for a supplier invoice.,مفيش معدات رجعت سليمة مستنية فاتورة مورد.
+No.,رقم
+Non-stock service item used on the customer's quotation / sales order. The price comes from the customer's Price List.,صنف خدمة غير مخزني بيظهر في عرض السعر أو أمر البيع. السعر بيتاخد من قائمة أسعار العميل.
+Non-stock service item used on the filling factory's purchase invoice.,صنف خدمة غير مخزني بيظهر في فاتورة مصنع الشحن.
+Not Enough Stock,الرصيد مش كفاية
+"Not enough stock of {0} in {1}: available {2} {3}, required {4}. The report stays as a draft until the stock or the quantity is corrected.",رصيد {0} في {1} مش كفاية: المتاح {2} {3} والمطلوب {4}. التقرير هيفضل مسودة لحد ما الرصيد أو الكمية تتظبط.
+Not supported for {0}.,مش مدعوم لـ {0}.
+Not supported.,مش مدعوم.
+Notes,ملاحظات
+Nothing is waiting to be billed for {0}.,مفيش حاجة مستنية فوترة للعميل {0}.
+Nothing more to add.,مفيش حاجة تانية تتضاف.
+OK,سليمة
+Only {0} available in {1},المتاح {0} بس في {1}
+"Optional. From the cylinder stamp, for CO2 cylinders.",اختياري. من الختم اللي على أسطوانة CO2.
+Other,أخرى
+Overdue,متأخر
+Owner (Customer),المالك (العميل)
+Partially Returned,رجوع جزئي
+Powder,بودرة
+Previous Values,القيم السابقة
+Print Delivery Note,طباعة إذن التسليم
+Print Gate Pass,طباعة بيان الخروج
+Print QR Labels,طباعة ملصقات QR
+Purchase Invoice,فاتورة مشتريات
+Qty,الكمية
+Quantity,العدد
+Quantity must be between 1 and 500.,العدد لازم يكون من 1 لـ 500.
+Quotation,عرض سعر
+Ready,جاهزة للتسليم
+Receipt Date,تاريخ الاستلام
+Receipt Profitability,تكلفة وربح الإذن
+Received,اتستلمت من العميل
+Received By,استلمها
+Received By (Customer),المستلم عند العميل
+Reference Document,المستند المرجعي
+Reference Document Type,نوع المستند المرجعي
+Register Return,تسجيل الرجوع
+Register Return from Supplier,تسجيل الرجوع من المورد
+Rejected by supplier,رفضها المورد
+Reports,التقارير
+Result,النتيجة
+Return Date,تاريخ الرجوع
+Return Status,حالة الرجوع
+Return date can't be before the dispatch date.,تاريخ الرجوع مينفعش يكون قبل تاريخ الإرسال.
+Returned,رجعت كلها
+Returned Damaged,رجعت تالفة
+Returned OK,رجعت سليمة
+Returned from Supplier,رجعت من المورد
+Returning equipment: scan the QR label or type the code.,معدة راجعة تاني: امسح ملصق الـ QR أو اكتب الكود.
+Route,المسار
+Row {0}: Equipment {1} belongs to customer {2}.,سطر {0}: المعدة {1} مسجلة باسم العميل {2}.
+Row {0}: Equipment {1} does not exist.,سطر {0}: المعدة {1} مش موجودة.
+Row {0}: Equipment {1} from {2} is already billed in {3}.,سطر {0}: المعدة {1} من {2} اتفوترت بالفعل في {3}.
+Row {0}: Equipment {1} is added more than once.,سطر {0}: المعدة {1} متضافة أكتر من مرة.
+"Row {0}: Equipment {1} is already in draft {2} {3}, which is waiting for approval.",سطر {0}: المعدة {1} موجودة في مسودة {2} {3} لسه مستنية الاعتماد.
+Row {0}: Equipment {1} is billed in {2}. Cancel that first.,سطر {0}: المعدة {1} اتفوترت في {2}. الغي ده الأول.
+Row {0}: Equipment {1} is billed twice in this document.,سطر {0}: المعدة {1} متفوترة مرتين في المستند ده.
+Row {0}: Equipment {1} is {2}. Allowed status: {3}.,سطر {0}: المعدة {1} حالتها {2}. الحالة المسموحة: {3}.
+"Row {0}: Equipment {1} route is {2}, this document is for {3} equipment.",سطر {0}: مسار المعدة {1} {2}، والمستند ده للمعدات الـ{3}.
+Row {0}: Quantity of {1} must be more than zero.,سطر {0}: كمية {1} لازم تكون أكبر من صفر.
+Row {0}: {1} is not a stock item.,سطر {0}: {1} مش صنف مخزني.
+Row {0}: {1} is not in {2}.,سطر {0}: {1} مش موجودة في {2}.
+Sales Invoice,فاتورة مبيعات
+Sales Order,أمر بيع
+Scan Equipment Code,امسح كود المعدة
+Security,الأمن
+Select the customer first.,اختار العميل الأول.
+Sent to Supplier,اتصرفت للمورد
+Service,صيانة دورية
+Service Dates,مواعيد الصيانة
+Service Due in 30 Days,صيانات مستحقة خلال 30 يوم
+Set the Customer Service Item on equipment type {0}.,حدد صنف الخدمة للعميل في نوع المعدة {0}.
+Set the Supplier Service Item on equipment type {0}.,حدد صنف خدمة المورد في نوع المعدة {0}.
+Signed Delivery Note,الإذن الموقّع
+Since,من تاريخ
+"Some equipment is already returned from the supplier, so this dispatch can't be cancelled.",فيه معدات رجعت من المورد بالفعل، فإذن الصرف ده مينفعش يتلغي.
+State,الوضع
+Status,الحالة
+Storekeeper,أمين المخزن
+Submit the dispatch before registering returns.,اعتمد إذن الصرف الأول قبل تسجيل الرجوع.
+Supervisor,المشرف
+Supplier Cost,تكلفة المورد
+Supplier Driver,مندوب المصنع استلمها من الورشة
+Supplier Service Item,صنف خدمة المورد
+Technician,الفني
+Technician Notes,ملاحظات الفني
+Technician: {0},الفني: {0}
+Times Received,مرات الصيانة
+To,إلى
+To Date,إلى تاريخ
+Total Accessories Cost,إجمالي تكلفة الأكسسوارات
+Total Equipment,إجمالي المعدات
+Total: {0} pieces. This equipment belongs to the customers listed and is sent for filling and will be returned.,العدد: {0} معدة. المعدات دي ملك العملاء المذكورين، ومرسلة للشحن وراجعة.
+Transport,النقل
+UOM,الوحدة
+Unknown purpose {0},غرض غير معروف {0}
+User,المستخدم
+Valuation Rate,تكلفة الوحدة
+Waiting for Approval,بانتظار اعتماد المحاسب
+Warehouse {0} belongs to company {1}.,المخزن {0} تابع لشركة {1}.
+Water,مياه
+Workshop,الورشة
+Workshop (Damaged),الورشة (تالفة)
+Workshop (Ready),الورشة (جاهزة)
+You are not allowed to register returns.,مش مسموح لك تسجل الرجوع.
+You can choose more than one report. Damaged equipment is never billed.,تقدر تختار أكتر من تقرير. والمعدات التالفة مش بتتفوتر.
+{0} equipment,{0} معدة
+{0} has nothing left to bill.,{0} مفيهوش حاجة لسه متفوترتش.
+{0} must be a non-stock service item: {1} is a stock item.,{0} لازم يكون صنف خدمة غير مخزني: {1} صنف مخزني.
+{0} need a hydrostatic test,{0} محتاجين اختبار ضغط
+{0} {1} has nothing left to bill for {2}.,{0} {1} مفيهوش حاجة لسه متفوترتش للعميل {2}.
